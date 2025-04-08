@@ -11,7 +11,7 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'Narutoautofilter')
+SESSION = environ.get('SESSION', 'BQF-X9cAUw2Xi38HmUoMS4NgquDwSEl9HYIxovZB13wqw_1PmmlEqZ15ngMO1Upewmh5KC8dfFbxxyGZYP-DR8T1NbVGwkKrcTSwAOqT2o0v4Qwdp6S4RLUu1PuatYmcJ3Ohde_FiqsBHYeGBFYXyJYiZoqabrVujMICSZNxfhUkU9U1W-FhoR5byzqoXC1q571xYy_g2O9dD3pY_1l-4Y1hWZCiBPDsHHUra54ozXs-CtRWXaJFpxol3DjnJFBd5rwylD1Iw3pcuxPEuwY5tPE69hHyR9A4rHhMBkpSJ5aRvgSWjgV-y-hT3TD8cZcggeBbY-EI28a-ZjoTw62zLdU_1ycGhgAAAAGfGU-UAA')
 API_ID = int(environ.get('API_ID', '25059287'))
 API_HASH = environ.get('API_HASH', '5e7701953107a273724b07f2beaf8f17')
 BOT_TOKEN = environ.get('BOT_TOKEN', "7930339960:AAHIp0ZGTVUzxUPJAPwxqhf8Au1OTFpBYFc")
