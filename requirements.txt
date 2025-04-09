@@ -6,3 +6,4 @@ aiohttp
 motor
 umongo
 cinemagoer
+beautifulsoup4
