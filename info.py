@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'naruto_bot')
 API_ID = int(environ.get('API_ID', '25059287'))
 API_HASH = environ.get('API_HASH', '5e7701953107a273724b07f2beaf8f17')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7930339960:AAHIp0ZGTVUzxUPJAPwxqhf8Au1OTFpBYFc")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7614723131:AAF_em1VwR0sQu0GClAwA6u58wJ_WX3ju8Q")
 
 #Port
 PORT = environ.get("PORT", "8080")
