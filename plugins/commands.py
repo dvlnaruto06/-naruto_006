@@ -253,9 +253,9 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url=https://t.me/moviehub4u_update')],
-  [InlineKeyboardButton('Instagram', url=https://www.instagram.com/movie_hub_4u_0?igsh=aXRlOTc4NzJxMGwx'),
-  InlineKeyboardButton('Facebook', url=/https://www.facebook.com/share/1BipEArQ6D/')] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://t.me/moviehub4u_update')],
+  [InlineKeyboardButton('Instagram', url='https://www.instagram.com/movie_hub_4u_0?igsh=aXRlOTc4NzJxMGwx'),
+  InlineKeyboardButton('Facebook', url='https://www.facebook.com/share/1BipEArQ6D/')] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
