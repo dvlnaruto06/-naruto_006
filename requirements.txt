@@ -4,5 +4,5 @@ pymongo
 dnspython
 aiohttp
 motor
-motor
 umongo
+cinemagoer
