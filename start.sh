@@ -1,14 +1,6 @@
 #!/bin/bash
 
-if [ -z "$UPSTREAM_REPO" ]; then
-  echo "Cloning main Repository"
-  git clone https://github.com/LazyDeveloperr/LazyPrincessV2 /LazyPrincessV2
-else
-  echo "Cloning Custom Repo from $UPSTREAM_REPO"
-  git clone "$UPSTREAM_REPO" /LazyPrincessV2
-fi
-
-cd /LazyPrincessV2 || exit
+git clone https://github.com/dvlnaruto06/-naruto_006 /app
+cd /app || exit
 pip3 install -U -r requirements.txt
-echo "Starting Bot...."
-exec python3 bot.py
+python3 bot.py
